@@ -1,4 +1,3 @@
-
 describe("The application loads", () => {
   beforeEach(() => {
     cy.seedAndVisit()
