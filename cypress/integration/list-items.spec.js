@@ -18,7 +18,6 @@ describe('List items', () =>{
         cy.get('.todo-list li').as('list');
         cy.get('@list').first().find('.destroy').invoke('show').click();
         cy.get('@list').should('have.length', 3).and('not.contain', 'Milk');
-
     })
 
     it('Marks an incomplete item complete', () =>{
@@ -34,6 +33,5 @@ describe('List items', () =>{
        cy.get('@first-todo').find('.toggle').click({force: true}).should('be.checked');
        cy.get('@first-todo').should('have.class', 'completed');
        cy.get('.todo-count').should('contain', 2);
-
     })
 })
