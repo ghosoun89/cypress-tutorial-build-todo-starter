@@ -1,11 +1,8 @@
-
-
 describe('Footer', () => {
     context('With a single todo', () => {
         it('Displays a singular todo in count', () => {
             cy.stubAndVisit([{ id: 1, name: 'Buy milk', isComplete: false }])
             cy.get('.todo-count').should('contain', '1 todo left')
-
         })
     })
 
