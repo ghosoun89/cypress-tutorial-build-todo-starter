@@ -1,0 +1,10 @@
+{
+    "defaultCommandTimeout": 10000,
+    "fixturesFolder": "cypress/fixtures",
+    "integrationFolder": "cypress/integration",
+    "pluginsFile": "cypress/plugins",
+    "supportFile": "cypress/support",
+    "screenshotOnRunFailure":false,
+    "video": false,
+   "baseUrl" :"http://localhost:3030"
+}

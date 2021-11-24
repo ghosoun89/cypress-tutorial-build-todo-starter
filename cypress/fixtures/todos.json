@@ -1,6 +1,5 @@
-{
-  "todos": [
-    {
+[
+  {
       "id": 1,
       "name": "Buy Milk",
       "isComplete": false
@@ -8,7 +7,7 @@
     {
       "id": 2,
       "name": "Buy Eggs",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 3,
@@ -19,11 +18,6 @@
       "id": 4,
       "name": "Make French Toast",
       "isComplete": false
-    },
-    {
-      "name": "Buy eggs",
-      "isComplete": false,
-      "id": 5
     }
-  ]
-}
+  
+]
