@@ -1,5 +1,3 @@
-
-
 describe('app initialization', () =>{
     it('Loads todos on page load', () =>{
         cy.seedAndVisit();
